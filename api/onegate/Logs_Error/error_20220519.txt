@@ -1,0 +1,21 @@
+19/05/2022 10:43:24.638: DongBoTrangThaiHoSo_
+19/05/2022 10:43:24.649: [{"MaHoSo":"H22.03.23.000-220517-0002","MaTTHC":null,"TenTTHC":null,"MaLinhVuc":null,"TenLinhVuc":null,"SoBienNhan":"","ChuHoSo":"Nguyễn Văn Mạnh","LoaiDoiTuong":"1","MaDoiTuong":"125125125125","NgayTiepNhan":"20220517172323","NgayHenTra":"","TrangThaiHoSo":"1","HinhThuc":"0","DonViXuLy":"THPT Mèo Vạc","TaiLieuNop":[],"DanhSachGiayToKetQua":[]}]
+19/05/2022 10:43:27.563: DongBoTrangThaiHoSo_
+19/05/2022 10:43:27.564: [{"MaHoSo":"H22.03.23.000-220517-0002","MaTTHC":null,"TenTTHC":null,"MaLinhVuc":null,"TenLinhVuc":null,"SoBienNhan":"","ChuHoSo":"Nguyễn Văn Mạnh","LoaiDoiTuong":"1","MaDoiTuong":"125125125125","NgayTiepNhan":"20220517172323","NgayHenTra":"","TrangThaiHoSo":"1","HinhThuc":"0","DonViXuLy":"THPT Mèo Vạc","TaiLieuNop":[],"DanhSachGiayToKetQua":[]}]
+19/05/2022 10:43:40.441: DongBoTrangThaiHoSo_
+19/05/2022 10:43:40.442: [{"MaHoSo":"H22.03.23.000-220517-0002","MaTTHC":null,"TenTTHC":null,"MaLinhVuc":null,"TenLinhVuc":null,"SoBienNhan":"","ChuHoSo":"Nguyễn Văn Mạnh","LoaiDoiTuong":"1","MaDoiTuong":"125125125125","NgayTiepNhan":"20220517172323","NgayHenTra":"","TrangThaiHoSo":"1","HinhThuc":"0","DonViXuLy":"THPT Mèo Vạc","TaiLieuNop":[],"DanhSachGiayToKetQua":[]}]
+19/05/2022 10:43:45.684: DongBoTrangThaiHoSo_
+19/05/2022 10:43:48.597: DongBoTrangThaiHoSo_
+19/05/2022 10:44:01.481: DongBoTrangThaiHoSo_
+19/05/2022 10:44:06.720: DongBoTrangThaiHoSo_
+19/05/2022 10:44:06.720: [{"MaHoSo":"H22.03.23.000-220517-0001","MaTTHC":null,"TenTTHC":null,"MaLinhVuc":null,"TenLinhVuc":null,"SoBienNhan":"","ChuHoSo":"Nguyễn Văn Mạnh","LoaiDoiTuong":"1","MaDoiTuong":"124124124124","NgayTiepNhan":"20220517170628","NgayHenTra":"","TrangThaiHoSo":"1","HinhThuc":"0","DonViXuLy":"THPT Mèo Vạc","TaiLieuNop":[],"DanhSachGiayToKetQua":[]}]
+19/05/2022 10:44:09.653: DongBoTrangThaiHoSo_
+19/05/2022 10:44:09.654: [{"MaHoSo":"H22.03.23.000-220517-0001","MaTTHC":null,"TenTTHC":null,"MaLinhVuc":null,"TenLinhVuc":null,"SoBienNhan":"","ChuHoSo":"Nguyễn Văn Mạnh","LoaiDoiTuong":"1","MaDoiTuong":"124124124124","NgayTiepNhan":"20220517170628","NgayHenTra":"","TrangThaiHoSo":"1","HinhThuc":"0","DonViXuLy":"THPT Mèo Vạc","TaiLieuNop":[],"DanhSachGiayToKetQua":[]}]
+19/05/2022 10:44:22.518: DongBoTrangThaiHoSo_
+19/05/2022 10:44:22.519: [{"MaHoSo":"H22.03.23.000-220517-0001","MaTTHC":null,"TenTTHC":null,"MaLinhVuc":null,"TenLinhVuc":null,"SoBienNhan":"","ChuHoSo":"Nguyễn Văn Mạnh","LoaiDoiTuong":"1","MaDoiTuong":"124124124124","NgayTiepNhan":"20220517170628","NgayHenTra":"","TrangThaiHoSo":"1","HinhThuc":"0","DonViXuLy":"THPT Mèo Vạc","TaiLieuNop":[],"DanhSachGiayToKetQua":[]}]
+19/05/2022 10:44:27.782: DongBoTrangThaiHoSo_
+19/05/2022 10:44:30.696: DongBoTrangThaiHoSo_
+19/05/2022 10:44:43.553: DongBoTrangThaiHoSo_
+19/05/2022 10:45:51.323: DongBoTrangThaiHoSo_
+19/05/2022 10:45:51.324: [{"MaHoSo":"H22.03.23.000-220517-0003","MaTTHC":null,"TenTTHC":null,"MaLinhVuc":null,"TenLinhVuc":null,"SoBienNhan":"","ChuHoSo":"Nguyễn Văn Mạnh","LoaiDoiTuong":"1","MaDoiTuong":"123456789012","NgayTiepNhan":"20220517172707","NgayHenTra":"","TrangThaiHoSo":"1","HinhThuc":"0","DonViXuLy":"THPT Mèo Vạc","TaiLieuNop":[],"DanhSachGiayToKetQua":[]}]
+19/05/2022 10:46:12.369: DongBoTrangThaiHoSo_

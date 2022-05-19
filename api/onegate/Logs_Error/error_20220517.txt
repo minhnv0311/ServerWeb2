@@ -1,0 +1,57 @@
+17/05/2022 17:06:35.689: DongBoNguoiDung_http://10.0.80.189:8084/hgtest/DongBoNguoiDungTS.aspx?sdt=0987123123&mahoso=H22.03.23.000-220517-0001_
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title></head>
+<body>
+    <form name="form1" method="post" action="./DongBoNguoiDungTS.aspx?sdt=0987123123&amp;mahoso=H22.03.23.000-220517-0001" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="xQ/8xAwPewyGlxxnSUpSEPHsHLn7gbDd9n/l7YYfQgeTIhPUAdIp+SFjyeqbz7SvL61Zp9EXuFriS9wGDKCOiGNQ/A4=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F1238CCB" />
+        <div>
+        </div>
+    </form>
+</body>
+</html>
+
+17/05/2022 17:23:26.285: DongBoNguoiDung_http://10.0.80.189:8084/hgtest/DongBoNguoiDungTS.aspx?sdt=0123123123&mahoso=H22.03.23.000-220517-0002_
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title></head>
+<body>
+    <form name="form1" method="post" action="./DongBoNguoiDungTS.aspx?sdt=0123123123&amp;mahoso=H22.03.23.000-220517-0002" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="6+2+GQKPtptwr7oI9Wq44159Op/zGTRutH8371BF/A1NGJaYyI9RZai/dc3E1NO2MYYLypDwUmvraSTgZi+V8i5+hpU=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F1238CCB" />
+        <div>
+        </div>
+    </form>
+</body>
+</html>
+
+17/05/2022 17:27:11.204: DongBoNguoiDung_http://10.0.80.189:8084/hgtest/DongBoNguoiDungTS.aspx?sdt=0123123123&mahoso=H22.03.23.000-220517-0003_
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title></head>
+<body>
+    <form name="form1" method="post" action="./DongBoNguoiDungTS.aspx?sdt=0123123123&amp;mahoso=H22.03.23.000-220517-0003" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="pCL72IWopXmjLJqPyfiAliuHMQipFAG0kDzpAb64xFSYnALAszgdmmuMtnuqSYKkll2AYEzyLM5cXHgrtOtoxWZ6IaI=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F1238CCB" />
+        <div>
+        </div>
+    </form>
+</body>
+</html>
+

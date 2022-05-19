@@ -1,0 +1,1043 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="COM_VSDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Menus" EntityType="COM_VSDModel.Menu" />
+    <EntitySet Name="Areas" EntityType="COM_VSDModel.Area" />
+    <EntitySet Name="Nations" EntityType="COM_VSDModel.Nation" />
+    <EntitySet Name="Nationalities" EntityType="COM_VSDModel.Nationality" />
+    <EntitySet Name="Processing_Status" EntityType="COM_VSDModel.Processing_Status" />
+    <EntitySet Name="Roles" EntityType="COM_VSDModel.Role" />
+    <EntitySet Name="AutoIDs" EntityType="COM_VSDModel.AutoID" />
+    <EntitySet Name="Positions" EntityType="COM_VSDModel.Position" />
+    <EntitySet Name="Group_Role" EntityType="COM_VSDModel.Group_Role" />
+    <EntitySet Name="Group_User" EntityType="COM_VSDModel.Group_User" />
+    <EntitySet Name="Role_Assignment" EntityType="COM_VSDModel.Role_Assignment" />
+    <EntitySet Name="DINH_KEM_ONLINE" EntityType="COM_VSDModel.DINH_KEM_ONLINE" />
+    <EntitySet Name="HO_SO_ONLINE_THUTUC" EntityType="COM_VSDModel.HO_SO_ONLINE_THUTUC" />
+    <EntitySet Name="Group_Menu" EntityType="COM_VSDModel.Group_Menu" />
+    <EntitySet Name="Groups" EntityType="COM_VSDModel.Group" />
+    <FunctionImport Name="Get_List_Admissions" ReturnType="Collection(COM_VSDModel.Get_List_Admissions_Result)">
+      <Parameter Name="MaDonVi" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="String" />
+      <Parameter Name="SearchKey" Mode="In" Type="String" />
+      <Parameter Name="NamHoc" Mode="In" Type="String" />
+      <Parameter Name="Tungay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="TrungTuyen" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="Get_YearChart" ReturnType="Collection(COM_VSDModel.Get_YearChart_Result)">
+      <Parameter Name="MaDonVi" Mode="In" Type="String" />
+      <Parameter Name="NamHoc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Count_HS" ReturnType="Collection(COM_VSDModel.Count_HS_Result)">
+      <Parameter Name="MaDonVi" Mode="In" Type="String" />
+      <Parameter Name="NamHoc" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="Organization_Type" EntityType="COM_VSDModel.Organization_Type" />
+    <EntitySet Name="UserProfiles" EntityType="COM_VSDModel.UserProfile" />
+    <FunctionImport Name="Get_DS_TrungTuyen" ReturnType="Collection(COM_VSDModel.Get_DS_TrungTuyen_Result)">
+      <Parameter Name="MaDonVi" Mode="In" Type="String" />
+      <Parameter Name="SearchKey" Mode="In" Type="String" />
+      <Parameter Name="NamHoc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Export_DS_TrungTuyen" ReturnType="Collection(COM_VSDModel.Export_DS_TrungTuyen_Result)">
+      <Parameter Name="MaDonVi" Mode="In" Type="String" />
+      <Parameter Name="SearchKey" Mode="In" Type="String" />
+      <Parameter Name="NamHoc" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="KET_QUA_HOC_TAP" EntityType="COM_VSDModel.KET_QUA_HOC_TAP" />
+    <EntitySet Name="MON_HOC" EntityType="COM_VSDModel.MON_HOC" />
+    <EntitySet Name="Organizations" EntityType="COM_VSDModel.Organization" />
+    <EntitySet Name="NHOM_MON_HOC" EntityType="COM_VSDModel.NHOM_MON_HOC" />
+    <EntitySet Name="HO_SO_ONLINE" EntityType="COM_VSDModel.HO_SO_ONLINE" />
+    <EntitySet Name="NGUYEN_VONG" EntityType="COM_VSDModel.NGUYEN_VONG" />
+    <FunctionImport Name="Count_HS_2" ReturnType="Collection(COM_VSDModel.Count_HS_2_Result)">
+      <Parameter Name="MaDonVi" Mode="In" Type="String" />
+      <Parameter Name="NamHoc" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="THOI_GIAN_TS" EntityType="COM_VSDModel.THOI_GIAN_TS" />
+    <FunctionImport Name="Get_List_HoSo" ReturnType="Collection(COM_VSDModel.Get_List_HoSo_Result)">
+      <Parameter Name="MaDonVi" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="String" />
+      <Parameter Name="SearchKey" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Get_List_Result" ReturnType="Collection(COM_VSDModel.Get_List_Result_Result)">
+      <Parameter Name="MaDonVi" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="String" />
+      <Parameter Name="SearchKey" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="HO_SO_TUYENSINH" EntityType="COM_VSDModel.HO_SO_TUYENSINH" />
+    <EntitySet Name="CMS_News" EntityType="COM_VSDModel.CMS_News" />
+    <EntitySet Name="TAGS" EntityType="COM_VSDModel.TAG" />
+    <EntitySet Name="Group_Tags" EntityType="COM_VSDModel.Group_Tags" />
+  </EntityContainer>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUserCreate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FUserApprove" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FApproveTime" Type="DateTime" Precision="3" />
+    <Property Name="FStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FBranchCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="title" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="subtitle" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="type" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="hidden" Type="Boolean" />
+    <Property Name="active" Type="Boolean" />
+    <Property Name="disabled" Type="Boolean" />
+    <Property Name="link" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="externalLink" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="target" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="exactMatch" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="icon" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="parent" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="Parent" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SearchKey" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsUnit" Type="Boolean" />
+    <Property Name="FBranchCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Use" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Nation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Nationality">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="SearchKey" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FBranchCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Processing_Status">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+  </EntityType>
+  <EntityType Name="AutoID">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUserCreate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FUserApprove" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FApproveTime" Type="DateTime" Precision="3" />
+    <Property Name="FStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FBranchCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Counter" Type="Int64" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Position">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Group_Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUserCreate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FUserApprove" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FApproveTime" Type="DateTime" Precision="3" />
+    <Property Name="FStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FBranchCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="CodeRole" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CodeGroup" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Group_User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUserCreate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FUserApprove" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FApproveTime" Type="DateTime" Precision="3" />
+    <Property Name="FStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FBranchCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CodeGroup" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Role_Assignment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUserCreate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FUserApprove" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FApproveTime" Type="DateTime" Precision="3" />
+    <Property Name="FStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FBranchCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="CodeRole" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CodePermission" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CodeMenu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DINH_KEM_ONLINE">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="LOAI_FILE" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DUNG_LUONG" Type="Int32" />
+    <Property Name="MATHUTUC" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="MADICHVU" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="MAHOSO" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="OptimisticLockField" Type="Int32" />
+    <Property Name="GCRecord" Type="Int32" />
+    <Property Name="TepKetQua" Type="Boolean" />
+    <Property Name="BS" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="HO_SO_ONLINE_THUTUC">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="NgayBoSung" Type="Boolean" />
+    <Property Name="NgayBoSungBieuMau" Type="Boolean" />
+    <Property Name="MaHoSo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MaThuTuc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MaDinhKem" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MaDuLieu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DaNop" Type="Boolean" />
+    <Property Name="MaDonVi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="OptimisticLockField" Type="Int32" />
+    <Property Name="GCRecord" Type="Int32" />
+    <Property Name="TenFile" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MaNhomThuTuc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThai" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="YKien" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Group_Menu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUserCreate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FUserApprove" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FApproveTime" Type="DateTime" Precision="3" />
+    <Property Name="FStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FBranchCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="CodeMenu" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CodeGroup" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="Check" Type="Boolean" />
+  </EntityType>
+  <ComplexType Name="Get_List_Admissions_Result">
+    <Property Type="Int64" Name="FIndex" Nullable="true" />
+    <Property Type="String" Name="FCode" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="HoVaTen" Nullable="true" MaxLength="200" />
+    <Property Type="DateTime" Name="NgaySinh" Nullable="true" />
+    <Property Type="Int32" Name="Age" Nullable="true" />
+    <Property Type="String" Name="GioiTinh" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="SoDienThoai" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="NamHoc" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="TrangThaiHS" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="NoiDungYKien" Nullable="true" />
+    <Property Type="DateTime" Name="FCreateTime" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="Get_YearChart_Result">
+    <Property Type="Int32" Name="HocSinhThuong" Nullable="true" />
+    <Property Type="Int32" Name="HocSinhKT" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="Count_HS_Result">
+    <Property Type="String" Name="FCode" Nullable="true" MaxLength="1000" />
+    <Property Type="Boolean" Name="FInUse" Nullable="true" />
+    <Property Type="String" Name="TrangThaiHS" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <EntityType Name="Organization_Type">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="Icon" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="OrgCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUserCreate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FUserApprove" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FApproveTime" Type="DateTime" Precision="3" />
+    <Property Name="FStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FBranchCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Department" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FullName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Provin" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="District" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ward" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Birthday" Type="DateTime" Precision="0" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Position" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Avatar" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DonVi" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SearchKey" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsAdmin" Type="Boolean" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <ComplexType Name="Get_DS_TrungTuyen_Result">
+    <Property Type="Int64" Name="FIndex" Nullable="true" />
+    <Property Type="String" Name="FCode" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="HoVaTen" Nullable="true" MaxLength="200" />
+    <Property Type="DateTime" Name="NgaySinh" Nullable="true" />
+    <Property Type="Int32" Name="Age" Nullable="true" />
+    <Property Type="String" Name="GioiTinh" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="SoDienThoai" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="NamHoc" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="NoiDungYKien" Nullable="true" />
+    <Property Type="DateTime" Name="FCreateTime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="DonVi" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="Export_DS_TrungTuyen_Result">
+    <Property Type="Int64" Name="TT" Nullable="true" />
+    <Property Type="String" Name="DonVi" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="HoVaTen" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="NgaySinh" Nullable="true" MaxLength="4000" />
+    <Property Type="Int32" Name="Tuoi" Nullable="true" />
+    <Property Type="String" Name="GioiTinh" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NoiSinh" Nullable="true" MaxLength="4000" />
+    <Property Type="String" Name="XaNoiSinh" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="HuyenNoiSinh" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="TinhNoiSinh" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="SoDienThoai" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="HoTen_Cha" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="DienThoai_Cha" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="HoTen_Me" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="DienThoai_Me" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <EntityType Name="KET_QUA_HOC_TAP">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="MaHoSo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="L1" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="L2" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="L3" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="L4" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="L5" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="HL6" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="HK6" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="HL7" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="HK7" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="HL8" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="HK8" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="HL9" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="HK9" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="DKK" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="DUT" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MON_HOC">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="NhomMonHoc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Organization">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUserCreate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FUserApprove" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FApproveTime" Type="DateTime" Precision="3" />
+    <Property Name="FStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FBranchCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FParent" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="IsDVChuQuan" Type="Boolean" />
+    <Property Name="IsDV" Type="Boolean" />
+    <Property Name="Provin" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Disctrict" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ward" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="SearchKey" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FullAddress" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SitePath" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="IsDefault" Type="Boolean" />
+    <Property Name="Type" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiHinh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KhuVuc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VungDacBiet" Type="Boolean" />
+    <Property Name="IsMN" Type="Boolean" />
+    <Property Name="IsTH" Type="Boolean" />
+    <Property Name="IsTHCS" Type="Boolean" />
+    <Property Name="IsTHPT" Type="Boolean" />
+    <Property Name="Loai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="NHOM_MON_HOC">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="MaDonVi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MonHoc" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="HO_SO_ONLINE">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="MaDichVu" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="HoTenNguoiNop" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiGiayToHL" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayTo" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="3" />
+    <Property Name="NamSinh" Type="Int32" />
+    <Property Name="TenCoQuan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GioiTinh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DiaChi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DiaBan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SoDienThoai" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiHS" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThai" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TinhTrang" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NoiDungYKien" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NgayGui" Type="DateTime" Precision="3" />
+    <Property Name="MaDonVi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="OptimisticLockField" Type="Int32" />
+    <Property Name="GCRecord" Type="Int32" />
+    <Property Name="TrangThaiXL" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="MaNhomThuTuc" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="MaKhachHang" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="TenDuAn" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Level" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LevelHS" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="HinhThuc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Sended_SMSZalo" Type="Boolean" />
+    <Property Name="Check_DoiChieu" Type="Boolean" />
+    <Property Name="PayID_Apply" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="FCodeOnline" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="OnLine" Type="Boolean" />
+    <Property Name="TrungTuyen" Type="Boolean" />
+    <Property Name="NguyenVong2" Type="Boolean" />
+    <Property Name="MaHoSoNguyenVong1" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="NGUYEN_VONG">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="MonHoc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NhomMon" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Check" Type="Boolean" />
+    <Property Name="MaHoSo" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="NV" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MaHoSoNV1" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <ComplexType Name="Count_HS_2_Result">
+    <Property Type="String" Name="FCode" Nullable="true" MaxLength="1000" />
+    <Property Type="Boolean" Name="FInUse" Nullable="true" />
+    <Property Type="String" Name="TrangThaiHS" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <EntityType Name="THOI_GIAN_TS">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="Parent" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SearchKey" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsUnit" Type="Boolean" />
+    <Property Name="FBranchCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BatDau" Type="DateTime" Precision="3" />
+    <Property Name="KetThuc" Type="DateTime" Precision="3" />
+  </EntityType>
+  <ComplexType Name="Get_List_HoSo_Result">
+    <Property Type="Int64" Name="FIndex" Nullable="true" />
+    <Property Type="String" Name="FCode" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="HoVaTen" Nullable="true" MaxLength="200" />
+    <Property Type="DateTime" Name="NgaySinh" Nullable="true" />
+    <Property Type="String" Name="GioiTinh" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="SoDienThoai" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="NamHoc" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="LoaiXetTuyen" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="FName" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="NguyenVong2" Nullable="true" />
+    <Property Type="DateTime" Name="FCreateTime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="FDescription" Nullable="true" />
+    <Property Type="Boolean" Name="IsSelected" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="Get_List_Result_Result">
+    <Property Type="Int64" Name="FIndex" Nullable="true" />
+    <Property Type="String" Name="FCode" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="HoVaTen" Nullable="true" MaxLength="200" />
+    <Property Type="DateTime" Name="NgaySinh" Nullable="true" />
+    <Property Type="String" Name="GioiTinh" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="SoDienThoai" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="NamHoc" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="NguyenVong2" Nullable="true" />
+    <Property Type="String" Name="LoaiXetTuyen" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="FName" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="FDescription" Nullable="true" />
+    <Property Type="String" Name="TrangThaiHS" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="NoiDungYKien" Nullable="true" />
+    <Property Type="DateTime" Name="FCreateTime" Nullable="true" Precision="23" />
+  </ComplexType>
+  <EntityType Name="HO_SO_TUYENSINH">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FUserCreate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserEdit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FUserDelete" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIsDelete" Type="Boolean" />
+    <Property Name="FIsEdit" Type="Boolean" />
+    <Property Name="FIsUpdate" Type="Boolean" />
+    <Property Name="FViewTime" Type="DateTime" Precision="3" />
+    <Property Name="FEditTime" Type="DateTime" Precision="3" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FDeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="FLanguage" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="NgayGui" Type="DateTime" Precision="3" />
+    <Property Name="MaDonVi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NamHoc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="HoVaTen" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="GioiTinh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="NoiSinh" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="TinhNoiSinh" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="HuyenNoiSinh" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="XaNoiSinh" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DanToc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheBaoHiem" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CuTru" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="TinhCuTru" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="HuyenCuTru" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="XaCuTru" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoDienThoai" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="KhiCanBaoTin" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="HoTen_Cha" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DienThoai_Cha" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgheNghiep_Cha" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="NoiLamViec_Cha" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="HoTen_Me" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DienThoai_Me" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgheNghiep_Me" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="NoiLamViec_Me" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiGiamHo" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiGiamHo_DienThoai" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiGiamHo_CuTru" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiGiamHo_TinhCuTru" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiGiamHo_HuyenCuTru" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiGiamHo_XaCuTru" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TinhTrangSucKhoe" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="HocSinhTruong" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="CheDoChinhSach" Type="Boolean" />
+    <Property Name="KhuyetTatHocHoaNhap" Type="Boolean" />
+    <Property Name="DoiTuongUuTien" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DiemUuTien" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiXetTuyen" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaHoSo" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="ThuocDienChinhSach" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="HoanThanhCTMN" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="IsCamKet" Type="Boolean" />
+    <Property Name="GiaiThuong" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="SoDinhDanhNguoiBaoTin" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GiaiThuongKhac" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="DiemKhuyenKhich" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="DiemKhuyenKhichKhac" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="MonHocChuyen" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoCCCDHocSinh" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NhomMonBatBuoc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NhomMonBatBuocNV2" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="LopMamNon" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="CMS_News">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUserCreate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FUserApprove" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FApproveTime" Type="DateTime" Precision="3" />
+    <Property Name="FStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FBranchCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FLanguage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Menu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsShowSortContent" Type="Boolean" />
+    <Property Name="StartDate" Type="DateTime" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Precision="3" />
+    <Property Name="SortContent" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsHotNews" Type="Boolean" />
+    <Property Name="IsTopNews" Type="Boolean" />
+    <Property Name="IsImportantNews" Type="Boolean" />
+    <Property Name="IsLiveNews" Type="Boolean" />
+    <Property Name="Tags" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="MainTag" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="UrlTag" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TAG">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUserCreate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FUserApprove" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FApproveTime" Type="DateTime" Precision="3" />
+    <Property Name="FStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FBranchCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MainMenu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ParentMenu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ControllerName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TemplateUrl" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Icon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Permission" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FLanguage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Group_Tags">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="FDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FCreateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="FUserCreate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FUserApprove" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FApproveTime" Type="DateTime" Precision="3" />
+    <Property Name="FStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FIndex" Type="Int32" />
+    <Property Name="FLevel" Type="Int32" />
+    <Property Name="FInUse" Type="Boolean" />
+    <Property Name="FBranchCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="CodeNews" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CodeTag" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FUserUpdate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

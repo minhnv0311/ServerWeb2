@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f6793dbce3f049fa9bb7c9a7667c3195" Name="Diagram1" ZoomLevel="37">
+        <EntityTypeShape EntityType="COM_VSDModel.Menu" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Area" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Nation" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Nationality" Width="1.5" PointX="5.375" PointY="6.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Processing_Status" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Role" Width="1.5" PointX="2.75" PointY="7.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.AutoID" Width="1.5" PointX="9.375" PointY="0.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Position" Width="1.5" PointX="11.375" PointY="0.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Group_Role" Width="1.5" PointX="13.375" PointY="9.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Group_User" Width="1.5" PointX="9.375" PointY="14.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Role_Assignment" Width="1.5" PointX="15.375" PointY="0.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.DINH_KEM_ONLINE" Width="1.5" PointX="5.75" PointY="12.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.HO_SO_ONLINE_THUTUC" Width="1.5" PointX="2.75" PointY="13.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Group_Menu" Width="1.5" PointX="15.375" PointY="6.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Group" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Organization_Type" Width="1.5" PointX="7.375" PointY="6.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.UserProfile" Width="1.5" PointX="9.375" PointY="6.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.KET_QUA_HOC_TAP" Width="1.5" PointX="17.375" PointY="9.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.MON_HOC" Width="1.5" PointX="17.375" PointY="18.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Organization" Width="1.5" PointX="19.375" PointY="6.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.NHOM_MON_HOC" Width="1.5" PointX="17.375" PointY="0.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.HO_SO_ONLINE" Width="1.5" PointX="13.375" PointY="15.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.NGUYEN_VONG" Width="1.5" PointX="19.375" PointY="15.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.THOI_GIAN_TS" Width="1.5" PointX="7.375" PointY="20.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.HO_SO_TUYENSINH" Width="1.5" PointX="9.375" PointY="20.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.CMS_News" Width="1.5" PointX="21.375" PointY="0.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.TAG" Width="1.5" PointX="21.375" PointY="8.75" />
+        <EntityTypeShape EntityType="COM_VSDModel.Group_Tags" Width="1.5" PointX="21.375" PointY="15.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

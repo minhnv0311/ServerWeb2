@@ -1,0 +1,1171 @@
+D:\VSD\VSDCompany\Azure\bin\VSDCompany.dll.config
+D:\VSD\VSDCompany\Azure\bin\VSDCompany.dll
+D:\VSD\VSDCompany\Azure\bin\VSDCompany.pdb
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Win32.Primitives.dll
+D:\VSD\VSDCompany\Azure\bin\netstandard.dll
+D:\VSD\VSDCompany\Azure\bin\System.AppContext.dll
+D:\VSD\VSDCompany\Azure\bin\System.Collections.Concurrent.dll
+D:\VSD\VSDCompany\Azure\bin\System.Collections.dll
+D:\VSD\VSDCompany\Azure\bin\System.Collections.NonGeneric.dll
+D:\VSD\VSDCompany\Azure\bin\System.Collections.Specialized.dll
+D:\VSD\VSDCompany\Azure\bin\System.ComponentModel.dll
+D:\VSD\VSDCompany\Azure\bin\System.ComponentModel.EventBasedAsync.dll
+D:\VSD\VSDCompany\Azure\bin\System.ComponentModel.Primitives.dll
+D:\VSD\VSDCompany\Azure\bin\System.ComponentModel.TypeConverter.dll
+D:\VSD\VSDCompany\Azure\bin\System.Console.dll
+D:\VSD\VSDCompany\Azure\bin\System.Data.Common.dll
+D:\VSD\VSDCompany\Azure\bin\System.Diagnostics.Contracts.dll
+D:\VSD\VSDCompany\Azure\bin\System.Diagnostics.Debug.dll
+D:\VSD\VSDCompany\Azure\bin\System.Diagnostics.FileVersionInfo.dll
+D:\VSD\VSDCompany\Azure\bin\System.Diagnostics.Process.dll
+D:\VSD\VSDCompany\Azure\bin\System.Diagnostics.StackTrace.dll
+D:\VSD\VSDCompany\Azure\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\VSD\VSDCompany\Azure\bin\System.Diagnostics.Tools.dll
+D:\VSD\VSDCompany\Azure\bin\System.Diagnostics.TraceSource.dll
+D:\VSD\VSDCompany\Azure\bin\System.Diagnostics.Tracing.dll
+D:\VSD\VSDCompany\Azure\bin\System.Drawing.Primitives.dll
+D:\VSD\VSDCompany\Azure\bin\System.Dynamic.Runtime.dll
+D:\VSD\VSDCompany\Azure\bin\System.Globalization.Calendars.dll
+D:\VSD\VSDCompany\Azure\bin\System.Globalization.dll
+D:\VSD\VSDCompany\Azure\bin\System.Globalization.Extensions.dll
+D:\VSD\VSDCompany\Azure\bin\System.IO.Compression.dll
+D:\VSD\VSDCompany\Azure\bin\System.IO.Compression.ZipFile.dll
+D:\VSD\VSDCompany\Azure\bin\System.IO.dll
+D:\VSD\VSDCompany\Azure\bin\System.IO.FileSystem.dll
+D:\VSD\VSDCompany\Azure\bin\System.IO.FileSystem.DriveInfo.dll
+D:\VSD\VSDCompany\Azure\bin\System.IO.FileSystem.Primitives.dll
+D:\VSD\VSDCompany\Azure\bin\System.IO.FileSystem.Watcher.dll
+D:\VSD\VSDCompany\Azure\bin\System.IO.IsolatedStorage.dll
+D:\VSD\VSDCompany\Azure\bin\System.IO.MemoryMappedFiles.dll
+D:\VSD\VSDCompany\Azure\bin\System.IO.Pipes.dll
+D:\VSD\VSDCompany\Azure\bin\System.IO.UnmanagedMemoryStream.dll
+D:\VSD\VSDCompany\Azure\bin\System.Linq.dll
+D:\VSD\VSDCompany\Azure\bin\System.Linq.Expressions.dll
+D:\VSD\VSDCompany\Azure\bin\System.Linq.Parallel.dll
+D:\VSD\VSDCompany\Azure\bin\System.Linq.Queryable.dll
+D:\VSD\VSDCompany\Azure\bin\System.Net.Http.dll
+D:\VSD\VSDCompany\Azure\bin\System.Net.NameResolution.dll
+D:\VSD\VSDCompany\Azure\bin\System.Net.NetworkInformation.dll
+D:\VSD\VSDCompany\Azure\bin\System.Net.Ping.dll
+D:\VSD\VSDCompany\Azure\bin\System.Net.Primitives.dll
+D:\VSD\VSDCompany\Azure\bin\System.Net.Requests.dll
+D:\VSD\VSDCompany\Azure\bin\System.Net.Security.dll
+D:\VSD\VSDCompany\Azure\bin\System.Net.Sockets.dll
+D:\VSD\VSDCompany\Azure\bin\System.Net.WebHeaderCollection.dll
+D:\VSD\VSDCompany\Azure\bin\System.Net.WebSockets.Client.dll
+D:\VSD\VSDCompany\Azure\bin\System.Net.WebSockets.dll
+D:\VSD\VSDCompany\Azure\bin\System.ObjectModel.dll
+D:\VSD\VSDCompany\Azure\bin\System.Reflection.dll
+D:\VSD\VSDCompany\Azure\bin\System.Reflection.Extensions.dll
+D:\VSD\VSDCompany\Azure\bin\System.Reflection.Primitives.dll
+D:\VSD\VSDCompany\Azure\bin\System.Resources.Reader.dll
+D:\VSD\VSDCompany\Azure\bin\System.Resources.ResourceManager.dll
+D:\VSD\VSDCompany\Azure\bin\System.Resources.Writer.dll
+D:\VSD\VSDCompany\Azure\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\VSD\VSDCompany\Azure\bin\System.Runtime.dll
+D:\VSD\VSDCompany\Azure\bin\System.Runtime.Extensions.dll
+D:\VSD\VSDCompany\Azure\bin\System.Runtime.Handles.dll
+D:\VSD\VSDCompany\Azure\bin\System.Runtime.InteropServices.dll
+D:\VSD\VSDCompany\Azure\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\VSD\VSDCompany\Azure\bin\System.Runtime.Numerics.dll
+D:\VSD\VSDCompany\Azure\bin\System.Runtime.Serialization.Formatters.dll
+D:\VSD\VSDCompany\Azure\bin\System.Runtime.Serialization.Json.dll
+D:\VSD\VSDCompany\Azure\bin\System.Runtime.Serialization.Primitives.dll
+D:\VSD\VSDCompany\Azure\bin\System.Runtime.Serialization.Xml.dll
+D:\VSD\VSDCompany\Azure\bin\System.Security.Claims.dll
+D:\VSD\VSDCompany\Azure\bin\System.Security.Cryptography.Algorithms.dll
+D:\VSD\VSDCompany\Azure\bin\System.Security.Cryptography.Csp.dll
+D:\VSD\VSDCompany\Azure\bin\System.Security.Cryptography.Encoding.dll
+D:\VSD\VSDCompany\Azure\bin\System.Security.Cryptography.Primitives.dll
+D:\VSD\VSDCompany\Azure\bin\System.Security.Cryptography.X509Certificates.dll
+D:\VSD\VSDCompany\Azure\bin\System.Security.Principal.dll
+D:\VSD\VSDCompany\Azure\bin\System.Security.SecureString.dll
+D:\VSD\VSDCompany\Azure\bin\System.Text.Encoding.dll
+D:\VSD\VSDCompany\Azure\bin\System.Text.Encoding.Extensions.dll
+D:\VSD\VSDCompany\Azure\bin\System.Text.RegularExpressions.dll
+D:\VSD\VSDCompany\Azure\bin\System.Threading.dll
+D:\VSD\VSDCompany\Azure\bin\System.Threading.Overlapped.dll
+D:\VSD\VSDCompany\Azure\bin\System.Threading.Tasks.dll
+D:\VSD\VSDCompany\Azure\bin\System.Threading.Tasks.Parallel.dll
+D:\VSD\VSDCompany\Azure\bin\System.Threading.Thread.dll
+D:\VSD\VSDCompany\Azure\bin\System.Threading.ThreadPool.dll
+D:\VSD\VSDCompany\Azure\bin\System.Threading.Timer.dll
+D:\VSD\VSDCompany\Azure\bin\System.ValueTuple.dll
+D:\VSD\VSDCompany\Azure\bin\System.Xml.ReaderWriter.dll
+D:\VSD\VSDCompany\Azure\bin\System.Xml.XDocument.dll
+D:\VSD\VSDCompany\Azure\bin\System.Xml.XmlDocument.dll
+D:\VSD\VSDCompany\Azure\bin\System.Xml.XmlSerializer.dll
+D:\VSD\VSDCompany\Azure\bin\System.Xml.XPath.dll
+D:\VSD\VSDCompany\Azure\bin\System.Xml.XPath.XDocument.dll
+D:\VSD\VSDCompany\Azure\bin\Antlr3.Runtime.dll
+D:\VSD\VSDCompany\Azure\bin\EntityFramework.dll
+D:\VSD\VSDCompany\Azure\bin\EntityFramework.SqlServer.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNet.Identity.Core.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Cors.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Options.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Primitives.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Net.Http.Headers.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Cors.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Cookies.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Facebook.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Google.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.OAuth.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Twitter.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Web.Infrastructure.dll
+D:\VSD\VSDCompany\Azure\bin\Newtonsoft.Json.dll
+D:\VSD\VSDCompany\Azure\bin\Owin.dll
+D:\VSD\VSDCompany\Azure\bin\System.Buffers.dll
+D:\VSD\VSDCompany\Azure\bin\System.ComponentModel.Annotations.dll
+D:\VSD\VSDCompany\Azure\bin\System.Memory.dll
+D:\VSD\VSDCompany\Azure\bin\System.Net.Http.Formatting.dll
+D:\VSD\VSDCompany\Azure\bin\System.Numerics.Vectors.dll
+D:\VSD\VSDCompany\Azure\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\VSD\VSDCompany\Azure\bin\System.Text.Encodings.Web.dll
+D:\VSD\VSDCompany\Azure\bin\System.Web.Cors.dll
+D:\VSD\VSDCompany\Azure\bin\System.Web.Helpers.dll
+D:\VSD\VSDCompany\Azure\bin\System.Web.Http.Cors.dll
+D:\VSD\VSDCompany\Azure\bin\System.Web.Http.dll
+D:\VSD\VSDCompany\Azure\bin\System.Web.Http.Owin.dll
+D:\VSD\VSDCompany\Azure\bin\System.Web.Http.WebHost.dll
+D:\VSD\VSDCompany\Azure\bin\System.Web.Mvc.dll
+D:\VSD\VSDCompany\Azure\bin\System.Web.Optimization.dll
+D:\VSD\VSDCompany\Azure\bin\System.Web.Razor.dll
+D:\VSD\VSDCompany\Azure\bin\System.Web.WebPages.Deployment.dll
+D:\VSD\VSDCompany\Azure\bin\System.Web.WebPages.dll
+D:\VSD\VSDCompany\Azure\bin\System.Web.WebPages.Razor.dll
+D:\VSD\VSDCompany\Azure\bin\WebGrease.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Cors.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Options.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Primitives.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Net.Http.Headers.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Cors.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.xml
+D:\VSD\VSDCompany\Azure\bin\System.Buffers.xml
+D:\VSD\VSDCompany\Azure\bin\System.Memory.xml
+D:\VSD\VSDCompany\Azure\bin\System.Numerics.Vectors.xml
+D:\VSD\VSDCompany\Azure\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\VSD\VSDCompany\Azure\bin\System.Text.Encodings.Web.xml
+D:\VSD\VSDCompany\Azure\bin\System.Web.Http.Cors.xml
+D:\VSD\VSDCompany\Azure\bin\Newtonsoft.Json.xml
+D:\VSD\VSDCompany\Azure\bin\System.Net.Http.Formatting.xml
+D:\VSD\VSDCompany\Azure\bin\System.Web.Helpers.xml
+D:\VSD\VSDCompany\Azure\bin\System.Web.Http.xml
+D:\VSD\VSDCompany\Azure\bin\System.Web.Http.WebHost.xml
+D:\VSD\VSDCompany\Azure\bin\System.Web.Mvc.xml
+D:\VSD\VSDCompany\Azure\bin\System.Web.Optimization.xml
+D:\VSD\VSDCompany\Azure\bin\System.Web.Razor.xml
+D:\VSD\VSDCompany\Azure\bin\System.Web.WebPages.xml
+D:\VSD\VSDCompany\Azure\bin\System.Web.WebPages.Deployment.xml
+D:\VSD\VSDCompany\Azure\bin\System.Web.WebPages.Razor.xml
+D:\VSD\VSDCompany\Azure\bin\Antlr3.Runtime.pdb
+D:\VSD\VSDCompany\Azure\bin\EntityFramework.xml
+D:\VSD\VSDCompany\Azure\bin\EntityFramework.SqlServer.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNet.Identity.Core.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Facebook.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Cookies.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Google.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Twitter.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.OAuth.xml
+D:\VSD\VSDCompany\Azure\bin\System.Web.Http.Owin.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.csproj.AssemblyReference.cache
+D:\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.Migrations.Initial.resources
+D:\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.csproj.GenerateResource.cache
+D:\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.csproj.CoreCompileInputs.cache
+D:\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.csproj.CopyComplete
+D:\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.dll
+D:\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.pdb
+D:\VSD\VSDCompany\Azure\bin\roslyn\csc.exe
+D:\VSD\VSDCompany\Azure\bin\roslyn\csc.exe.config
+D:\VSD\VSDCompany\Azure\bin\roslyn\csc.rsp
+D:\VSD\VSDCompany\Azure\bin\roslyn\csi.exe
+D:\VSD\VSDCompany\Azure\bin\roslyn\csi.exe.config
+D:\VSD\VSDCompany\Azure\bin\roslyn\csi.rsp
+D:\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.Managed.Core.targets
+D:\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.AppContext.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Collections.Immutable.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Console.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Globalization.Calendars.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.IO.Compression.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.IO.FileSystem.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Net.Http.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Net.Sockets.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Reflection.Metadata.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.ValueTuple.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Xml.XmlDocument.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Xml.XPath.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\VSD\VSDCompany\Azure\bin\roslyn\vbc.exe
+D:\VSD\VSDCompany\Azure\bin\roslyn\vbc.exe.config
+D:\VSD\VSDCompany\Azure\bin\roslyn\vbc.rsp
+D:\VSD\VSDCompany\Azure\bin\roslyn\VBCSCompiler.exe
+D:\VSD\VSDCompany\Azure\bin\roslyn\VBCSCompiler.exe.config
+D:\VSD\VSDCompany\Azure\bin\Microsoft.DiaSymReader.Native.x86.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Antiforgery.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authorization.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.DataProtection.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.JsonPatch.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Localization.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Razor.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Razor.Language.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Routing.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.StaticFiles.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.CSharp.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.Razor.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Caching.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Caching.Memory.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.DependencyModel.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.FileProviders.Composite.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Localization.Abstractions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Localization.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.ObjectPool.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.WebEncoders.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Win32.Registry.dll
+D:\VSD\VSDCompany\Azure\bin\Newtonsoft.Json.Bson.dll
+D:\VSD\VSDCompany\Azure\bin\System.Collections.Immutable.dll
+D:\VSD\VSDCompany\Azure\bin\System.Diagnostics.DiagnosticSource.dll
+D:\VSD\VSDCompany\Azure\bin\System.Reflection.Metadata.dll
+D:\VSD\VSDCompany\Azure\bin\System.Security.AccessControl.dll
+D:\VSD\VSDCompany\Azure\bin\System.Security.Cryptography.Xml.dll
+D:\VSD\VSDCompany\Azure\bin\System.Security.Permissions.dll
+D:\VSD\VSDCompany\Azure\bin\System.Security.Principal.Windows.dll
+D:\VSD\VSDCompany\Azure\bin\System.Text.Encoding.CodePages.dll
+D:\VSD\VSDCompany\Azure\bin\System.Threading.Tasks.Extensions.dll
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Antiforgery.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authorization.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.DataProtection.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Html.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.JsonPatch.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Localization.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Cors.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Localization.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Razor.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Razor.Extensions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.RazorPages.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.TagHelpers.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Razor.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Razor.Language.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Razor.Runtime.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Routing.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.StaticFiles.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.pdb
+D:\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.CSharp.pdb
+D:\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.CSharp.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.Razor.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Caching.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Caching.Memory.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.FileProviders.Composite.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Localization.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Localization.Abstractions.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.ObjectPool.xml
+D:\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.WebEncoders.xml
+D:\VSD\VSDCompany\Azure\bin\Newtonsoft.Json.Bson.xml
+D:\VSD\VSDCompany\Azure\bin\System.Collections.Immutable.xml
+D:\VSD\VSDCompany\Azure\bin\System.Diagnostics.DiagnosticSource.xml
+D:\VSD\VSDCompany\Azure\bin\System.Reflection.Metadata.xml
+D:\VSD\VSDCompany\Azure\bin\System.Threading.Tasks.Extensions.xml
+D:\VSD\VSDCompany\Azure\bin\BouncyCastle.Crypto.dll
+D:\VSD\VSDCompany\Azure\bin\ICSharpCode.SharpZipLib.dll
+D:\VSD\VSDCompany\Azure\bin\NPOI.dll
+D:\VSD\VSDCompany\Azure\bin\NPOI.OOXML.dll
+D:\VSD\VSDCompany\Azure\bin\NPOI.OpenXml4Net.dll
+D:\VSD\VSDCompany\Azure\bin\NPOI.OpenXmlFormats.dll
+D:\VSD\VSDCompany\Azure\bin\BouncyCastle.Crypto.xml
+D:\VSD\VSDCompany\Azure\bin\ICSharpCode.SharpZipLib.pdb
+D:\VSD\VSDCompany\Azure\bin\ICSharpCode.SharpZipLib.xml
+D:\VSD\VSDCompany\Azure\bin\NPOI.pdb
+D:\VSD\VSDCompany\Azure\bin\NPOI.xml
+D:\VSD\VSDCompany\Azure\bin\NPOI.OOXML.pdb
+D:\VSD\VSDCompany\Azure\bin\NPOI.OOXML.xml
+D:\VSD\VSDCompany\Azure\bin\NPOI.OpenXml4Net.pdb
+D:\VSD\VSDCompany\Azure\bin\NPOI.OpenXmlFormats.pdb
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\VSDCompany.dll.config
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\VSDCompany.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\VSDCompany.pdb
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\csc.exe
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\csc.exe.config
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\csc.rsp
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\csi.exe
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\csi.exe.config
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\csi.rsp
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.AppContext.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Console.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.IO.Compression.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Net.Http.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.ValueTuple.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\vbc.exe
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\vbc.exe.config
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\vbc.rsp
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\VBCSCompiler.exe
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\netstandard.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.AppContext.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Collections.Concurrent.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Collections.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Collections.NonGeneric.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Collections.Specialized.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.ComponentModel.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.ComponentModel.Primitives.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Console.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Data.Common.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Diagnostics.Contracts.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Diagnostics.Debug.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Diagnostics.Process.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Diagnostics.Tools.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Diagnostics.Tracing.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Drawing.Primitives.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Dynamic.Runtime.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Globalization.Calendars.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Globalization.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Globalization.Extensions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.IO.Compression.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.IO.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.IO.FileSystem.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.IO.IsolatedStorage.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.IO.Pipes.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Linq.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Linq.Expressions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Linq.Parallel.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Linq.Queryable.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Net.Http.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Net.NameResolution.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Net.NetworkInformation.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Net.Ping.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Net.Primitives.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Net.Requests.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Net.Security.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Net.Sockets.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Net.WebSockets.Client.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Net.WebSockets.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.ObjectModel.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Reflection.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Reflection.Extensions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Reflection.Primitives.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Resources.Reader.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Resources.ResourceManager.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Resources.Writer.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Runtime.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Runtime.Extensions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Runtime.Handles.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Runtime.InteropServices.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Runtime.Numerics.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Security.Claims.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Security.Principal.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Security.SecureString.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Text.Encoding.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Text.RegularExpressions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Threading.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Threading.Overlapped.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Threading.Tasks.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Threading.Thread.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Threading.ThreadPool.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Threading.Timer.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.ValueTuple.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Xml.ReaderWriter.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Xml.XDocument.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Xml.XmlDocument.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Xml.XmlSerializer.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Xml.XPath.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Antlr3.Runtime.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\BouncyCastle.Crypto.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\EntityFramework.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\EntityFramework.SqlServer.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Cors.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Localization.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Razor.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Localization.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Options.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Cors.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Win32.Registry.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Newtonsoft.Json.Bson.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Newtonsoft.Json.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\NPOI.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\NPOI.OOXML.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\NPOI.OpenXml4Net.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\NPOI.OpenXmlFormats.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Owin.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Buffers.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Collections.Immutable.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.ComponentModel.Annotations.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Memory.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Net.Http.Formatting.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Numerics.Vectors.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Reflection.Metadata.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Security.AccessControl.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Security.Cryptography.Xml.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Security.Permissions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Security.Principal.Windows.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Text.Encoding.CodePages.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Text.Encodings.Web.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Cors.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Helpers.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Http.Cors.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Http.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Http.Owin.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Http.WebHost.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Mvc.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Optimization.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Razor.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.WebPages.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.WebPages.Razor.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\WebGrease.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\BouncyCastle.Crypto.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\ICSharpCode.SharpZipLib.pdb
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\ICSharpCode.SharpZipLib.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Antiforgery.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Cors.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Html.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.JsonPatch.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Localization.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Cors.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Localization.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Razor.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.Razor.Extensions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.RazorPages.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.TagHelpers.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Razor.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Razor.Language.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Razor.Runtime.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.StaticFiles.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.pdb
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.CSharp.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.CodeAnalysis.Razor.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.FileProviders.Composite.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Localization.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Options.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Cors.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Newtonsoft.Json.Bson.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\NPOI.pdb
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\NPOI.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\NPOI.OOXML.pdb
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\NPOI.OOXML.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\NPOI.OpenXml4Net.pdb
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\NPOI.OpenXmlFormats.pdb
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Buffers.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Collections.Immutable.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Memory.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Numerics.Vectors.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Reflection.Metadata.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Text.Encodings.Web.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Http.Cors.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Newtonsoft.Json.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Net.Http.Formatting.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Helpers.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Http.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Http.WebHost.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Mvc.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Optimization.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Razor.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.WebPages.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.WebPages.Razor.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Antlr3.Runtime.pdb
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\EntityFramework.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\EntityFramework.SqlServer.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Web.Http.Owin.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.csproj.AssemblyReference.cache
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.Migrations.Initial.resources
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.csproj.GenerateResource.cache
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.csproj.CoreCompileInputs.cache
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.csproj.CopyComplete
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\obj\Debug\VSDCompany.pdb
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Text.Json.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.Text.Json.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\System.ValueTuple.xml
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Aspose.Words.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Aspose.Words.Pdf2Word.dll
+C:\Users\Minh Nguyen\OneDrive\VSD\VSDCompany\Azure\bin\Aspose.Words.xml
+D:\VSD\WebService2\bin\Microsoft.DiaSymReader.Native.x86.dll
+D:\VSD\WebService2\bin\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VSD\WebService2\bin\VSDCompany.dll.config
+D:\VSD\WebService2\bin\VSDCompany.dll
+D:\VSD\WebService2\bin\VSDCompany.pdb
+D:\VSD\WebService2\bin\roslyn\csc.exe
+D:\VSD\WebService2\bin\roslyn\csc.exe.config
+D:\VSD\WebService2\bin\roslyn\csc.rsp
+D:\VSD\WebService2\bin\roslyn\csi.exe
+D:\VSD\WebService2\bin\roslyn\csi.exe.config
+D:\VSD\WebService2\bin\roslyn\csi.rsp
+D:\VSD\WebService2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VSD\WebService2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VSD\WebService2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\VSD\WebService2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VSD\WebService2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\VSD\WebService2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VSD\WebService2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VSD\WebService2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VSD\WebService2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\VSD\WebService2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\VSD\WebService2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VSD\WebService2\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\VSD\WebService2\bin\roslyn\System.AppContext.dll
+D:\VSD\WebService2\bin\roslyn\System.Collections.Immutable.dll
+D:\VSD\WebService2\bin\roslyn\System.Console.dll
+D:\VSD\WebService2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\VSD\WebService2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\VSD\WebService2\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\VSD\WebService2\bin\roslyn\System.Globalization.Calendars.dll
+D:\VSD\WebService2\bin\roslyn\System.IO.Compression.dll
+D:\VSD\WebService2\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\VSD\WebService2\bin\roslyn\System.IO.FileSystem.dll
+D:\VSD\WebService2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\VSD\WebService2\bin\roslyn\System.Net.Http.dll
+D:\VSD\WebService2\bin\roslyn\System.Net.Sockets.dll
+D:\VSD\WebService2\bin\roslyn\System.Reflection.Metadata.dll
+D:\VSD\WebService2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\VSD\WebService2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\VSD\WebService2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\VSD\WebService2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\VSD\WebService2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\VSD\WebService2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\VSD\WebService2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\VSD\WebService2\bin\roslyn\System.ValueTuple.dll
+D:\VSD\WebService2\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\VSD\WebService2\bin\roslyn\System.Xml.XmlDocument.dll
+D:\VSD\WebService2\bin\roslyn\System.Xml.XPath.dll
+D:\VSD\WebService2\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\VSD\WebService2\bin\roslyn\vbc.exe
+D:\VSD\WebService2\bin\roslyn\vbc.exe.config
+D:\VSD\WebService2\bin\roslyn\vbc.rsp
+D:\VSD\WebService2\bin\roslyn\VBCSCompiler.exe
+D:\VSD\WebService2\bin\roslyn\VBCSCompiler.exe.config
+D:\VSD\WebService2\bin\Microsoft.Win32.Primitives.dll
+D:\VSD\WebService2\bin\netstandard.dll
+D:\VSD\WebService2\bin\System.AppContext.dll
+D:\VSD\WebService2\bin\System.Collections.Concurrent.dll
+D:\VSD\WebService2\bin\System.Collections.dll
+D:\VSD\WebService2\bin\System.Collections.NonGeneric.dll
+D:\VSD\WebService2\bin\System.Collections.Specialized.dll
+D:\VSD\WebService2\bin\System.ComponentModel.dll
+D:\VSD\WebService2\bin\System.ComponentModel.EventBasedAsync.dll
+D:\VSD\WebService2\bin\System.ComponentModel.Primitives.dll
+D:\VSD\WebService2\bin\System.ComponentModel.TypeConverter.dll
+D:\VSD\WebService2\bin\System.Console.dll
+D:\VSD\WebService2\bin\System.Data.Common.dll
+D:\VSD\WebService2\bin\System.Diagnostics.Contracts.dll
+D:\VSD\WebService2\bin\System.Diagnostics.Debug.dll
+D:\VSD\WebService2\bin\System.Diagnostics.FileVersionInfo.dll
+D:\VSD\WebService2\bin\System.Diagnostics.Process.dll
+D:\VSD\WebService2\bin\System.Diagnostics.StackTrace.dll
+D:\VSD\WebService2\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\VSD\WebService2\bin\System.Diagnostics.Tools.dll
+D:\VSD\WebService2\bin\System.Diagnostics.TraceSource.dll
+D:\VSD\WebService2\bin\System.Diagnostics.Tracing.dll
+D:\VSD\WebService2\bin\System.Drawing.Primitives.dll
+D:\VSD\WebService2\bin\System.Dynamic.Runtime.dll
+D:\VSD\WebService2\bin\System.Globalization.Calendars.dll
+D:\VSD\WebService2\bin\System.Globalization.dll
+D:\VSD\WebService2\bin\System.Globalization.Extensions.dll
+D:\VSD\WebService2\bin\System.IO.Compression.dll
+D:\VSD\WebService2\bin\System.IO.Compression.ZipFile.dll
+D:\VSD\WebService2\bin\System.IO.dll
+D:\VSD\WebService2\bin\System.IO.FileSystem.dll
+D:\VSD\WebService2\bin\System.IO.FileSystem.DriveInfo.dll
+D:\VSD\WebService2\bin\System.IO.FileSystem.Primitives.dll
+D:\VSD\WebService2\bin\System.IO.FileSystem.Watcher.dll
+D:\VSD\WebService2\bin\System.IO.IsolatedStorage.dll
+D:\VSD\WebService2\bin\System.IO.MemoryMappedFiles.dll
+D:\VSD\WebService2\bin\System.IO.Pipes.dll
+D:\VSD\WebService2\bin\System.IO.UnmanagedMemoryStream.dll
+D:\VSD\WebService2\bin\System.Linq.dll
+D:\VSD\WebService2\bin\System.Linq.Expressions.dll
+D:\VSD\WebService2\bin\System.Linq.Parallel.dll
+D:\VSD\WebService2\bin\System.Linq.Queryable.dll
+D:\VSD\WebService2\bin\System.Net.Http.dll
+D:\VSD\WebService2\bin\System.Net.NameResolution.dll
+D:\VSD\WebService2\bin\System.Net.NetworkInformation.dll
+D:\VSD\WebService2\bin\System.Net.Ping.dll
+D:\VSD\WebService2\bin\System.Net.Primitives.dll
+D:\VSD\WebService2\bin\System.Net.Requests.dll
+D:\VSD\WebService2\bin\System.Net.Security.dll
+D:\VSD\WebService2\bin\System.Net.Sockets.dll
+D:\VSD\WebService2\bin\System.Net.WebHeaderCollection.dll
+D:\VSD\WebService2\bin\System.Net.WebSockets.Client.dll
+D:\VSD\WebService2\bin\System.Net.WebSockets.dll
+D:\VSD\WebService2\bin\System.ObjectModel.dll
+D:\VSD\WebService2\bin\System.Reflection.dll
+D:\VSD\WebService2\bin\System.Reflection.Extensions.dll
+D:\VSD\WebService2\bin\System.Reflection.Primitives.dll
+D:\VSD\WebService2\bin\System.Resources.Reader.dll
+D:\VSD\WebService2\bin\System.Resources.ResourceManager.dll
+D:\VSD\WebService2\bin\System.Resources.Writer.dll
+D:\VSD\WebService2\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\VSD\WebService2\bin\System.Runtime.dll
+D:\VSD\WebService2\bin\System.Runtime.Extensions.dll
+D:\VSD\WebService2\bin\System.Runtime.Handles.dll
+D:\VSD\WebService2\bin\System.Runtime.InteropServices.dll
+D:\VSD\WebService2\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\VSD\WebService2\bin\System.Runtime.Numerics.dll
+D:\VSD\WebService2\bin\System.Runtime.Serialization.Formatters.dll
+D:\VSD\WebService2\bin\System.Runtime.Serialization.Json.dll
+D:\VSD\WebService2\bin\System.Runtime.Serialization.Primitives.dll
+D:\VSD\WebService2\bin\System.Runtime.Serialization.Xml.dll
+D:\VSD\WebService2\bin\System.Security.Claims.dll
+D:\VSD\WebService2\bin\System.Security.Cryptography.Algorithms.dll
+D:\VSD\WebService2\bin\System.Security.Cryptography.Csp.dll
+D:\VSD\WebService2\bin\System.Security.Cryptography.Encoding.dll
+D:\VSD\WebService2\bin\System.Security.Cryptography.Primitives.dll
+D:\VSD\WebService2\bin\System.Security.Cryptography.X509Certificates.dll
+D:\VSD\WebService2\bin\System.Security.Principal.dll
+D:\VSD\WebService2\bin\System.Security.SecureString.dll
+D:\VSD\WebService2\bin\System.Text.Encoding.dll
+D:\VSD\WebService2\bin\System.Text.Encoding.Extensions.dll
+D:\VSD\WebService2\bin\System.Text.RegularExpressions.dll
+D:\VSD\WebService2\bin\System.Threading.dll
+D:\VSD\WebService2\bin\System.Threading.Overlapped.dll
+D:\VSD\WebService2\bin\System.Threading.Tasks.dll
+D:\VSD\WebService2\bin\System.Threading.Tasks.Parallel.dll
+D:\VSD\WebService2\bin\System.Threading.Thread.dll
+D:\VSD\WebService2\bin\System.Threading.ThreadPool.dll
+D:\VSD\WebService2\bin\System.Threading.Timer.dll
+D:\VSD\WebService2\bin\System.Xml.ReaderWriter.dll
+D:\VSD\WebService2\bin\System.Xml.XDocument.dll
+D:\VSD\WebService2\bin\System.Xml.XmlDocument.dll
+D:\VSD\WebService2\bin\System.Xml.XmlSerializer.dll
+D:\VSD\WebService2\bin\System.Xml.XPath.dll
+D:\VSD\WebService2\bin\System.Xml.XPath.XDocument.dll
+D:\VSD\WebService2\bin\Antlr3.Runtime.dll
+D:\VSD\WebService2\bin\Aspose.Words.dll
+D:\VSD\WebService2\bin\Aspose.Words.Pdf2Word.dll
+D:\VSD\WebService2\bin\BouncyCastle.Crypto.dll
+D:\VSD\WebService2\bin\EntityFramework.dll
+D:\VSD\WebService2\bin\EntityFramework.SqlServer.dll
+D:\VSD\WebService2\bin\ICSharpCode.SharpZipLib.dll
+D:\VSD\WebService2\bin\Microsoft.AspNet.Identity.Core.dll
+D:\VSD\WebService2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\VSD\WebService2\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Antiforgery.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Authorization.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Cors.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.DataProtection.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Http.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.JsonPatch.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Localization.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Razor.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Razor.Language.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Routing.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.StaticFiles.dll
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\VSD\WebService2\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\VSD\WebService2\bin\Microsoft.CodeAnalysis.CSharp.dll
+D:\VSD\WebService2\bin\Microsoft.CodeAnalysis.dll
+D:\VSD\WebService2\bin\Microsoft.CodeAnalysis.Razor.dll
+D:\VSD\WebService2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VSD\WebService2\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.Caching.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.Caching.Memory.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.DependencyModel.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.FileProviders.Composite.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.Localization.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.Localization.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.ObjectPool.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.Options.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.Primitives.dll
+D:\VSD\WebService2\bin\Microsoft.Extensions.WebEncoders.dll
+D:\VSD\WebService2\bin\Microsoft.Net.Http.Headers.dll
+D:\VSD\WebService2\bin\Microsoft.Owin.Cors.dll
+D:\VSD\WebService2\bin\Microsoft.Owin.dll
+D:\VSD\WebService2\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.Cookies.dll
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.dll
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.Facebook.dll
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.Google.dll
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.OAuth.dll
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.Twitter.dll
+D:\VSD\WebService2\bin\Microsoft.Web.Infrastructure.dll
+D:\VSD\WebService2\bin\Microsoft.Win32.Registry.dll
+D:\VSD\WebService2\bin\Newtonsoft.Json.Bson.dll
+D:\VSD\WebService2\bin\Newtonsoft.Json.dll
+D:\VSD\WebService2\bin\NPOI.dll
+D:\VSD\WebService2\bin\NPOI.OOXML.dll
+D:\VSD\WebService2\bin\NPOI.OpenXml4Net.dll
+D:\VSD\WebService2\bin\NPOI.OpenXmlFormats.dll
+D:\VSD\WebService2\bin\Owin.dll
+D:\VSD\WebService2\bin\System.Buffers.dll
+D:\VSD\WebService2\bin\System.Collections.Immutable.dll
+D:\VSD\WebService2\bin\System.ComponentModel.Annotations.dll
+D:\VSD\WebService2\bin\System.Diagnostics.DiagnosticSource.dll
+D:\VSD\WebService2\bin\System.Memory.dll
+D:\VSD\WebService2\bin\System.Net.Http.Formatting.dll
+D:\VSD\WebService2\bin\System.Numerics.Vectors.dll
+D:\VSD\WebService2\bin\System.Reflection.Metadata.dll
+D:\VSD\WebService2\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\VSD\WebService2\bin\System.Security.AccessControl.dll
+D:\VSD\WebService2\bin\System.Security.Cryptography.Xml.dll
+D:\VSD\WebService2\bin\System.Security.Permissions.dll
+D:\VSD\WebService2\bin\System.Security.Principal.Windows.dll
+D:\VSD\WebService2\bin\System.Text.Encoding.CodePages.dll
+D:\VSD\WebService2\bin\System.Text.Encodings.Web.dll
+D:\VSD\WebService2\bin\System.Text.Json.dll
+D:\VSD\WebService2\bin\System.Threading.Tasks.Extensions.dll
+D:\VSD\WebService2\bin\System.ValueTuple.dll
+D:\VSD\WebService2\bin\System.Web.Cors.dll
+D:\VSD\WebService2\bin\System.Web.Helpers.dll
+D:\VSD\WebService2\bin\System.Web.Http.Cors.dll
+D:\VSD\WebService2\bin\System.Web.Http.dll
+D:\VSD\WebService2\bin\System.Web.Http.Owin.dll
+D:\VSD\WebService2\bin\System.Web.Http.WebHost.dll
+D:\VSD\WebService2\bin\System.Web.Mvc.dll
+D:\VSD\WebService2\bin\System.Web.Optimization.dll
+D:\VSD\WebService2\bin\System.Web.Razor.dll
+D:\VSD\WebService2\bin\System.Web.WebPages.Deployment.dll
+D:\VSD\WebService2\bin\System.Web.WebPages.dll
+D:\VSD\WebService2\bin\System.Web.WebPages.Razor.dll
+D:\VSD\WebService2\bin\WebGrease.dll
+D:\VSD\WebService2\bin\Aspose.Words.xml
+D:\VSD\WebService2\bin\BouncyCastle.Crypto.xml
+D:\VSD\WebService2\bin\ICSharpCode.SharpZipLib.pdb
+D:\VSD\WebService2\bin\ICSharpCode.SharpZipLib.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Antiforgery.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Authorization.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Cors.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.DataProtection.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Html.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Http.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.JsonPatch.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Localization.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Cors.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Localization.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Razor.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.Razor.Extensions.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.RazorPages.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.TagHelpers.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Razor.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Razor.Language.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Razor.Runtime.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Routing.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.StaticFiles.xml
+D:\VSD\WebService2\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\VSD\WebService2\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\VSD\WebService2\bin\Microsoft.CodeAnalysis.pdb
+D:\VSD\WebService2\bin\Microsoft.CodeAnalysis.xml
+D:\VSD\WebService2\bin\Microsoft.CodeAnalysis.CSharp.pdb
+D:\VSD\WebService2\bin\Microsoft.CodeAnalysis.CSharp.xml
+D:\VSD\WebService2\bin\Microsoft.CodeAnalysis.Razor.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.Caching.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.Caching.Memory.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.FileProviders.Composite.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.Localization.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.Localization.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.ObjectPool.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.Options.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.Primitives.xml
+D:\VSD\WebService2\bin\Microsoft.Extensions.WebEncoders.xml
+D:\VSD\WebService2\bin\Microsoft.Net.Http.Headers.xml
+D:\VSD\WebService2\bin\Microsoft.Owin.xml
+D:\VSD\WebService2\bin\Microsoft.Owin.Cors.xml
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.xml
+D:\VSD\WebService2\bin\Newtonsoft.Json.Bson.xml
+D:\VSD\WebService2\bin\NPOI.pdb
+D:\VSD\WebService2\bin\NPOI.xml
+D:\VSD\WebService2\bin\NPOI.OOXML.pdb
+D:\VSD\WebService2\bin\NPOI.OOXML.xml
+D:\VSD\WebService2\bin\NPOI.OpenXml4Net.pdb
+D:\VSD\WebService2\bin\NPOI.OpenXmlFormats.pdb
+D:\VSD\WebService2\bin\System.Buffers.xml
+D:\VSD\WebService2\bin\System.Collections.Immutable.xml
+D:\VSD\WebService2\bin\System.Diagnostics.DiagnosticSource.xml
+D:\VSD\WebService2\bin\System.Memory.xml
+D:\VSD\WebService2\bin\System.Numerics.Vectors.xml
+D:\VSD\WebService2\bin\System.Reflection.Metadata.xml
+D:\VSD\WebService2\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\VSD\WebService2\bin\System.Text.Encodings.Web.xml
+D:\VSD\WebService2\bin\System.Text.Json.xml
+D:\VSD\WebService2\bin\System.Threading.Tasks.Extensions.xml
+D:\VSD\WebService2\bin\System.ValueTuple.xml
+D:\VSD\WebService2\bin\System.Web.Http.Cors.xml
+D:\VSD\WebService2\bin\Newtonsoft.Json.xml
+D:\VSD\WebService2\bin\System.Net.Http.Formatting.xml
+D:\VSD\WebService2\bin\System.Web.Helpers.xml
+D:\VSD\WebService2\bin\System.Web.Http.xml
+D:\VSD\WebService2\bin\System.Web.Http.WebHost.xml
+D:\VSD\WebService2\bin\System.Web.Mvc.xml
+D:\VSD\WebService2\bin\System.Web.Optimization.xml
+D:\VSD\WebService2\bin\System.Web.Razor.xml
+D:\VSD\WebService2\bin\System.Web.WebPages.xml
+D:\VSD\WebService2\bin\System.Web.WebPages.Deployment.xml
+D:\VSD\WebService2\bin\System.Web.WebPages.Razor.xml
+D:\VSD\WebService2\bin\Antlr3.Runtime.pdb
+D:\VSD\WebService2\bin\EntityFramework.xml
+D:\VSD\WebService2\bin\EntityFramework.SqlServer.xml
+D:\VSD\WebService2\bin\Microsoft.AspNet.Identity.Core.xml
+D:\VSD\WebService2\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\VSD\WebService2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\VSD\WebService2\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.Facebook.xml
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.Cookies.xml
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.Google.xml
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.Twitter.xml
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\VSD\WebService2\bin\Microsoft.Owin.Security.OAuth.xml
+D:\VSD\WebService2\bin\System.Web.Http.Owin.xml
+D:\VSD\WebService2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VSD\WebService2\obj\Debug\VSDCompany.csproj.AssemblyReference.cache
+D:\VSD\WebService2\obj\Debug\VSDCompany.Migrations.Initial.resources
+D:\VSD\WebService2\obj\Debug\VSDCompany.csproj.GenerateResource.cache
+D:\VSD\WebService2\obj\Debug\VSDCompany.csproj.CoreCompileInputs.cache
+D:\VSD\WebService2\obj\Debug\VSDCompany.csproj.CopyComplete
+D:\VSD\WebService2\obj\Debug\VSDCompany.dll
+D:\VSD\WebService2\obj\Debug\VSDCompany.pdb
