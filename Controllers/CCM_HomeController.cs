@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using RestSharp;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -15,6 +17,146 @@ namespace VSDCompany.Controllers
     public class CCM_HomeController : ApiController
     {
         private Entities db = new Entities();
+
+        public ListNews GetFromTuoiTre()
+        {
+            RestClient clientDB = new RestClient("https://news-nghiepradeon-app.herokuapp.com/api/v1/news/all");
+
+            RestRequest requestDB = new RestRequest(Method.GET);
+            IRestResponse res = clientDB.Execute(requestDB);
+            string con = res.Content;
+            var dataVNE = JsonConvert.DeserializeObject<ListNewsVNE>(con);
+            var ListNewsTTR = new List<CMS_News>();
+            if (dataVNE != null)
+            {
+                foreach (var news in dataVNE.data)
+                {
+                    CMS_News n = new CMS_News()
+                    {
+                        Id = 0,
+                        FName = news.title,
+                        FDescription = news.link,
+                        FCreateTime = DateTime.Parse(news.pubDate),
+                        SortContent = news.description,
+                        FLevel = 2,
+                        Image = news.img,
+                        FBranchCode = "TTO"
+                    };
+                    ListNewsTTR.Add(n);
+                }
+            }
+            var data = new ListNews()
+            {
+                list = ListNewsTTR,
+                total = ListNewsTTR.Count()
+            };
+            return (data);
+        }
+        public ListNews GetFromVNExpress()
+        {
+            RestClient clientDB = new RestClient("https://soa2022.herokuapp.com/api/getListFeedMessage");
+
+            RestRequest requestDB = new RestRequest(Method.POST);
+            IRestResponse res = clientDB.Execute(requestDB);
+            string con = res.Content;
+            var dataVNE = JsonConvert.DeserializeObject<ListNewsVNE>(con);
+            var ListNewsVNE = new List<CMS_News>();
+            if (dataVNE != null)
+            {
+                foreach (var news in dataVNE.data)
+                {
+                    CMS_News n = new CMS_News()
+                    {
+                        Id = 0,
+                        FName = news.title,
+                        FDescription = news.link,
+                        FCreateTime = DateTime.Parse(news.pubDate),
+                        SortContent = news.description,
+                        FLevel = 2,
+                        Image = news.img,
+                        FBranchCode = "VNE"
+                    };
+                    ListNewsVNE.Add(n);
+                }
+            }
+            var data = new ListNews()
+            {
+                list = ListNewsVNE,
+                total = ListNewsVNE.Count()
+            };
+            return (data);
+        }
+        [HttpGet]
+        [Route("GetList10BienBan")]
+        public IHttpActionResult GetListBienBan(int pageNumber, int pageSize, string searchKey, string TAG)
+        {
+            try
+            {
+                var ListNews = new ListNews();
+                if (TAG == "tin-tuc-su-kien") {
+                    ListNews = GetFromVNExpress();
+                    var ListNews2 = GetFromTuoiTre();
+                    if (ListNews2 != null)
+                    {
+                        ListNews.list.AddRange(ListNews2.list);
+                        ListNews.total += ListNews2.total;
+                    }
+                }
+                else GetListNewsFromLocal(pageNumber, pageSize, searchKey, TAG);
+                var respon = new
+                {
+                    list = ListNews.list.OrderByDescending(x => x.FCreateTime).Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList(),
+                    total = ListNews.total
+                };
+                return Ok(respon);
+            }
+            catch (Exception ex)
+            {
+                string branchCode = HttpContext.Current.Request.Headers["x-company"];
+                string language = HttpContext.Current.Request.Headers["x-language"];
+                var data = db.CMS_News.Where(x => x.FInUse == true && (x.Menu == TAG || x.Tags.Contains(TAG)) && x.FLanguage == language
+                     && (x.FName.Contains(searchKey) || x.FDescription.Contains(searchKey) || x.Content.Contains(searchKey) || x.SortContent.Contains(searchKey) || string.IsNullOrEmpty(searchKey)))
+                        .OrderByDescending(x => x.FCreateTime)
+                        .Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
+                var count = db.CMS_News.Where(x => x.FInUse == true && (x.Menu == TAG || x.Tags.Contains(TAG)) && x.FLanguage == language
+                     && (x.FName.Contains(searchKey) || x.FDescription.Contains(searchKey) || x.Content.Contains(searchKey) || x.SortContent.Contains(searchKey) || string.IsNullOrEmpty(searchKey))).Count();
+                var total = 0;
+                if (count > 0) total = (count % pageSize == 0) ? count / pageSize : (count / pageSize + 1);
+                var respon = new
+                {
+                    list = data,
+                    total = total
+                };
+                return Ok(respon);
+            }
+        }
+        public ListNews GetListNewsFromLocal(int pageNumber, int pageSize, string searchKey, string TAG)
+        {
+            try
+            {
+                string branchCode = HttpContext.Current.Request.Headers["x-company"];
+                string language = HttpContext.Current.Request.Headers["x-language"];
+                var data = db.CMS_News.Where(x => x.FInUse == true && (x.Menu == TAG || x.Tags.Contains(TAG)) && x.FLanguage == language
+                     && (x.FName.Contains(searchKey) || x.FDescription.Contains(searchKey) || x.Content.Contains(searchKey) || x.SortContent.Contains(searchKey) || string.IsNullOrEmpty(searchKey)))
+                        .OrderByDescending(x => x.FCreateTime)
+                        .Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
+                var count = db.CMS_News.Where(x => x.FInUse == true && (x.Menu == TAG || x.Tags.Contains(TAG)) && x.FLanguage == language
+                     && (x.FName.Contains(searchKey) || x.FDescription.Contains(searchKey) || x.Content.Contains(searchKey) || x.SortContent.Contains(searchKey) || string.IsNullOrEmpty(searchKey))).Count();
+                var total = 0;
+                if (count > 0) total = (count % pageSize == 0) ? count / pageSize : (count / pageSize + 1);
+                var respon = new ListNews()
+                {
+                    list = data,
+                    total = total
+                };
+                return respon;
+            }
+            catch (System.Exception ex)
+            {
+                ex.ToString();
+                return null;
+            }
+        }
 
         // GET: api/Groups
         [HttpGet]
@@ -136,27 +278,6 @@ namespace VSDCompany.Controllers
             return Ok(data);
         }
         [HttpGet]
-        [Route("GetList10BienBan")]
-        public IHttpActionResult GetListBienBan(int pageNumber, int pageSize, string searchKey, string TAG)
-        {
-            string branchCode = HttpContext.Current.Request.Headers["x-company"];
-            string language = HttpContext.Current.Request.Headers["x-language"];
-            var data = db.CMS_News.Where(x => x.FInUse == true && (x.Menu == TAG || x.Tags.Contains(TAG))
-                 && (x.FName.Contains(searchKey) || x.FDescription.Contains(searchKey) || x.Content.Contains(searchKey) || x.SortContent.Contains(searchKey) || string.IsNullOrEmpty(searchKey)))
-                    .OrderByDescending(x => x.FCreateTime)
-                    .Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
-            var count = db.CMS_News.Where(x => x.FInUse == true && (x.Menu == TAG || x.Tags.Contains(TAG))
-                 && (x.FName.Contains(searchKey) || x.FDescription.Contains(searchKey) || x.Content.Contains(searchKey) || x.SortContent.Contains(searchKey) || string.IsNullOrEmpty(searchKey))).Count();
-            var total = 0;
-            if (count > 0) total = (count % pageSize == 0) ? count / pageSize : (count / pageSize + 1);
-            var respon = new
-            {
-                list = data,
-                total = total
-            };
-            return Ok(respon);
-        }
-        [HttpGet]
         [Route("GetHotNews")]
         public IHttpActionResult GetHotNews()
         {
@@ -179,6 +300,26 @@ namespace VSDCompany.Controllers
             string language = HttpContext.Current.Request.Headers["x-language"];
             var data = db.CMS_News.Where(x => x.Id == Id).FirstOrDefault();
             return Ok(data);
+        }
+
+        public class ListNews
+        {
+            public List<CMS_News> list { get; set; }
+            public int total { get; set; }
+        }
+        public class News_VNE
+        {
+            public string title { get; set; }
+            public string description { get; set; }
+            public string pubDate { get; set; }
+            public string link { get; set; }
+            public string img { get; set; }
+            public int FLevel { get; set; }
+        }
+        public class ListNewsVNE
+        {
+            public bool success { get; set; }
+            public List<News_VNE> data { get; set; }
         }
     }
     public class Comments
